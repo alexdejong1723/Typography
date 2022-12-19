@@ -34,7 +34,10 @@ namespace Typography.OpenFont
         /// </summary>
         public ScriptList GPOSScriptList { get; private set; }
 
-        Cmap _cmap;
+        /// <summary>
+        /// The Cmap
+        /// </summary>
+        public Cmap _cmap {get; private set; }
 
         internal void Update(OS2Table os2Tabble, Meta meta, Cmap cmap, GSUB gsub, GPOS gpos)
         {
