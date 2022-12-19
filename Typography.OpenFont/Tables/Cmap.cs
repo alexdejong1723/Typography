@@ -71,7 +71,7 @@ namespace Typography.OpenFont.Tables
     //or map correctly to these codepoints from other codepages and character sets. 
     ////////////////////////////////////////////////////////////////////////
 
-    partial class Cmap : TableEntry
+    public class Cmap : TableEntry
     {
         //https://docs.microsoft.com/en-us/typography/opentype/spec/cmap
 
